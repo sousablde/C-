@@ -41,6 +41,27 @@ public://member functions and data accessible outside of class
 
     }
 
+    //second constructor
+    ComplexNumber(double c, double r) : realPart(r), complexPart(c) {
+        cout << "inside 2 argument constructor" << endl;
+    }
+
+    void setRealPart(double r) {
+        realPart = r;
+    }
+
+    void setComplexPart(double c) {
+        complexPart = c;
+    }
+
+
+    //destructor
+    //frees the memory used by the constructor
+    ~ComplexNumber() {
+        delete[] realPart;
+        delete[] complexPart;
+    }
+
 
     //setter
     void setMemberVariables(double r, double c)
