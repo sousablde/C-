@@ -30,7 +30,11 @@ public://member functions and data accessible outside of class
     //but before the body
     //initialization lists are used considering the order
     //of code execution
-    //
+    /*
+     * initialization lists are required to make sure member
+     * variables are constructed correctly instead of simply
+     * being reassigned
+     */
     ComplexNumber():realPart(0.0), complexPart(0.0)
     {
         cout << "Constructor with no arguments called "<<endl;
