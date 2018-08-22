@@ -1,86 +1,37 @@
 //
 // Created by sousa on 8/20/2018.
 //
-
-#ifndef REALNUMBERS_COMPLEXNUMBER_H
-#define REALNUMBERS_COMPLEXNUMBER_H
-
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-//keyword class + class name
+//forward declaration of the complexnumberpolar class
+Class ComplexNumberPolar;
+
+
 class ComplexNumber {
-private://member functions and data only accessible inside class
-    float realPart;
-    float complexPart;
-public://member functions and data accessible outside of class
+private:
+    double realPart;
+    double complexPart;
+    static int numObjectsCreated;
+public:
+    const static double PI;
 
-    /*
-    //creating my constructor
-    ComplexNumber()
-    {
-        //this constructor does not initialize any
-        //of the member variables
-        cout << "Constructor with no arguments called "<<endl;
-    }
-     */
+    ComplexNumber();
 
-    //creating a constructor using an initialization list
-    //initialization lists a[[ear after the name of the constructor
-    //but before the body
-    //initialization lists are used considering the order
-    //of code execution
-    /*
-     * initialization lists are required to make sure member
-     * variables are constructed correctly instead of simply
-     * being reassigned
-     */
-    ComplexNumber():realPart(0.0), complexPart(0.0)
-    {
-        cout << "Constructor with no arguments called "<<endl;
+    ComplexNumber(double c, double r);
 
-    }
+    ComplexNumber(const ComplexNumber &rhs);
 
-    //second constructor
-    ComplexNumber(double c, double r) : realPart(r), complexPart(c) {
-        cout << "inside 2 argument constructor" << endl;
-    }
+    ~ComplexNumber();
 
-    void setRealPart(double r) {
-        realPart = r;
-    }
+    double getComplexPart() const;
 
-    void setComplexPart(double c) {
-        complexPart = c;
-    }
+    void setComplexPart(double c);
 
+    //friend of the complex number class
+    //functiom signature references the polar object
 
-    //destructor
-    //frees the memory used by the constructor
-    ~ComplexNumber() {
-        delete[] realPart;
-        delete[] complexPart;
-    }
-
-
-    //setter
-    void setMemberVariables(double r, double c)
-    {
-        realPart=r;
-        complexPart=c;
-    }
-    //getter
-    float getComplexPart()
-    {
-        return complexPart;
-    }
-    //printing function
-    void print()
-    {
-        cout<<"real part= "<<realPart<<" complex part = "<<complexPart<<endl;
-    }
-
+    friend ComplexNumber addTwoComplexNumbers(const ComplexNumber &cart, const ComplexNumber &polar);
 };
 
-
-#endif //REALNUMBERS_COMPLEXNUMBER_H

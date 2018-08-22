@@ -3,4 +3,4 @@ project(RealNumbers)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(RealNumbers main.cpp ComplexNumber.cpp ComplexNumber.h)
+add_executable(RealNumbers main.cpp ComplexNumber.cpp ComplexNumber.h ComplexNumberPolar.cpp ComplexNumberPolar.h)

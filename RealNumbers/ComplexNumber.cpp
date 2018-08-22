@@ -16,29 +16,50 @@
  * the::refers to the scope resolution operator
  */
 
-ComplexNumber::ComplexNumber() : realPart(0.0), complexPart(0.0 {
+int ComplexNumber::numObjectsCreated = 0; // define the static variable
+const double ComplexNumber::PI = 3.1415;
 
-    cout << "Constructor with no arguments called " << endl;
 
+ComplexNumber::ComplexNumber() : realPart(0.0), complexPart(0.0) {
+    // increment the static variable keeping track of objects created
+    numObjectsCreated++;
+    cout << "No arg-constructor called" << endl;
 }
 
 ComplexNumber::ComplexNumber(double c, double r) : realPart(r), complexPart(c) {
-    cout << "inside 2 argument constructor" << endl;
-
+    // increment the static variable keeping track of objects created
+    numObjectsCreated++;
+    cout << "Inside the 2-argument constructor" << endl;
 }
 
-ComplexNumber::ComplexNumber(const ComplexNumber &rhs) : realPart(rhs.realPart), complexPart(rhs.complexPart) {
-    cout << "inside copy constructor" << endl;
+ComplexNumber::ComplexNumber(const ComplexNumber &rhs) :
+        realPart(rhs.realPart), complexPart(rhs.complexPart) {
+    // increment the static variable keeping track of objects created
+    numObjectsCreated++;
+    cout << "Inside the copy constructor" << endl;
 }
+
+ComplexNumber::~ComplexNumber() {
+    cout << "Inside the destructor: realPart = " << realPart << " complexPart = " << complexPart << endl;
+}
+
+float ComplexNumber::getRealPart() const { return realPart; }
+
+void ComplexNumber::setRealPart(float r) { realPart = r; }
+
+float ComplexNumber::getComplexPart() const { return complexPart; }
+
+void ComplexNumber::setComplexPart(float c) { complexPart = c; }
 
 /*
+
   Implementation vs interface
   all member variable should be kept private
   public getters and setters should access those variables
 
 
- traditional class implementation
-keyword class + class name
+ //traditional class implementation
+   keyword class + class name
 class ComplexNumber {
 private://member functions and data only accessible inside class
     float realPart;
@@ -55,15 +76,15 @@ public://member functions and data accessible outside of class
     }
 
 
-    creating a constructor using an initialization list
-    initialization lists a[[ear after the name of the constructor
-    but before the body
-    initialization lists are used considering the order
-    of code execution
+     creating a constructor using an initialization list
+     initialization lists a[[ear after the name of the constructor
+     but before the body
+     initialization lists are used considering the order
+     of code execution
 
       initialization lists are required to make sure member
-variables are constructed correctly instead of simply
-     being reassigned
+      variables are constructed correctly instead of simply
+      being reassigned
 
     ComplexNumber():realPart(0.0), complexPart(0.0)
     {

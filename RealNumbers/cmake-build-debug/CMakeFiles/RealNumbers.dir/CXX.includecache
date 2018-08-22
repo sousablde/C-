@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sousa/Desktop/github/C++/RealNumbers/ComplexNumber.h
+iostream
+-
+cmath
+-
+
+C:/Users/sousa/Desktop/github/C++/RealNumbers/ComplexNumberPolar.h
+
+C:/Users/sousa/Desktop/github/C++/RealNumbers/main.cpp
+ComplexNumber.h
+C:/Users/sousa/Desktop/github/C++/RealNumbers/ComplexNumber.h
+ComplexNumberPolar.h
+C:/Users/sousa/Desktop/github/C++/RealNumbers/ComplexNumberPolar.h
+
