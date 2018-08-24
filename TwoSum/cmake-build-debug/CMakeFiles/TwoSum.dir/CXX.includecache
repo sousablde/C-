@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/ON2NaiveSolution.cpp
+ON2NaiveSolution.h
+C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/ON2NaiveSolution.h
+
+C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/ON2NaiveSolution.h
+iostream
+-
+
+C:/Users/sousa/Desktop/github/C++/TwoSum/main.cpp
+ON2NaiveSolution.h
+C:/Users/sousa/Desktop/github/C++/TwoSum/ON2NaiveSolution.h
+cmake-build-debug/ON2NaiveSolution.h
+C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/ON2NaiveSolution.h
+

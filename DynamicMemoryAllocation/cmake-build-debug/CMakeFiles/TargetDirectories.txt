@@ -1,0 +1,3 @@
+C:/Users/sousa/Desktop/github/C++/DynamicMemoryAllocation/cmake-build-debug/CMakeFiles/DynamicMemoryAllocation.dir
+C:/Users/sousa/Desktop/github/C++/DynamicMemoryAllocation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sousa/Desktop/github/C++/DynamicMemoryAllocation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
