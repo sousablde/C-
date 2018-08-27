@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sousa/Desktop/github/C++/ThisKeyword/Person.cpp
+Person.h
+C:/Users/sousa/Desktop/github/C++/ThisKeyword/Person.h
+
+C:/Users/sousa/Desktop/github/C++/ThisKeyword/Person.h
+iostream
+-
+sstream
+-
+

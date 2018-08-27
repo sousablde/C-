@@ -82,10 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/ON2NaiveSolution.cpp">
+		<Unit filename="C:/Users/sousa/Desktop/github/C++/TwoSum/ON2NaiveSolution.cpp">
 			<Option target="TwoSum"/>
 		</Unit>
-		<Unit filename="C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/ON2NaiveSolution.h">
+		<Unit filename="C:/Users/sousa/Desktop/github/C++/TwoSum/ON2NaiveSolution.h">
+			<Option target="TwoSum"/>
+		</Unit>
+		<Unit filename="C:/Users/sousa/Desktop/github/C++/TwoSum/OnlognSolution.cpp">
+			<Option target="TwoSum"/>
+		</Unit>
+		<Unit filename="C:/Users/sousa/Desktop/github/C++/TwoSum/OnlognSolution.h">
 			<Option target="TwoSum"/>
 		</Unit>
 		<Unit filename="C:/Users/sousa/Desktop/github/C++/TwoSum/main.cpp">

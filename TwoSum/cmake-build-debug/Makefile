@@ -149,6 +149,33 @@ ON2NaiveSolution.cpp.s:
 	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/ON2NaiveSolution.cpp.s
 .PHONY : ON2NaiveSolution.cpp.s
 
+OnlognSolution.obj: OnlognSolution.cpp.obj
+
+.PHONY : OnlognSolution.obj
+
+# target to build an object file
+OnlognSolution.cpp.obj:
+	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/OnlognSolution.cpp.obj
+.PHONY : OnlognSolution.cpp.obj
+
+OnlognSolution.i: OnlognSolution.cpp.i
+
+.PHONY : OnlognSolution.i
+
+# target to preprocess a source file
+OnlognSolution.cpp.i:
+	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/OnlognSolution.cpp.i
+.PHONY : OnlognSolution.cpp.i
+
+OnlognSolution.s: OnlognSolution.cpp.s
+
+.PHONY : OnlognSolution.s
+
+# target to generate assembly for a file
+OnlognSolution.cpp.s:
+	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/OnlognSolution.cpp.s
+.PHONY : OnlognSolution.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... ON2NaiveSolution.obj
 	@echo ... ON2NaiveSolution.i
 	@echo ... ON2NaiveSolution.s
+	@echo ... OnlognSolution.obj
+	@echo ... OnlognSolution.i
+	@echo ... OnlognSolution.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/ON2NaiveSolution.cpp" "C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/ON2NaiveSolution.cpp.obj"
+  "C:/Users/sousa/Desktop/github/C++/TwoSum/ON2NaiveSolution.cpp" "C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/ON2NaiveSolution.cpp.obj"
+  "C:/Users/sousa/Desktop/github/C++/TwoSum/OnlognSolution.cpp" "C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/OnlognSolution.cpp.obj"
   "C:/Users/sousa/Desktop/github/C++/TwoSum/main.cpp" "C:/Users/sousa/Desktop/github/C++/TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

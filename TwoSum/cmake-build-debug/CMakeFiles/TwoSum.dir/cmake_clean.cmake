@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TwoSum.dir/main.cpp.obj"
   "CMakeFiles/TwoSum.dir/ON2NaiveSolution.cpp.obj"
+  "CMakeFiles/TwoSum.dir/OnlognSolution.cpp.obj"
   "TwoSum.pdb"
   "TwoSum.exe"
   "TwoSum.exe.manifest"

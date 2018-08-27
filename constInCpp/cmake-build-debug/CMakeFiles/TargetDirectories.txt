@@ -1,0 +1,3 @@
+C:/Users/sousa/Desktop/github/C++/constInCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sousa/Desktop/github/C++/constInCpp/cmake-build-debug/CMakeFiles/constInCpp.dir
+C:/Users/sousa/Desktop/github/C++/constInCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
