@@ -164,6 +164,6 @@ int main() {
      * output
      * svalue after changeSomething function is 89
      */
-    
+
     return 0;
 }

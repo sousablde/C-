@@ -3,4 +3,4 @@ project(TwoSum)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TwoSum main.cpp cmake-build-debug/ON2NaiveSolution.cpp cmake-build-debug/ON2NaiveSolution.h)
+add_executable(TwoSum main.cpp ON2NaiveSolution.cpp ON2NaiveSolution.h OnlognSolution.cpp OnlognSolution.h)
