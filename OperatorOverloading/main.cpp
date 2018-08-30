@@ -1,5 +1,8 @@
 #include <iostream>
-
+/*
+ * please use this as reference
+ * https://en.wikibooks.org/wiki/C%2B%2B_Programming/Operators/Operator_Overloading
+ */
 using namespace std;
 
 class ComplexNumber {
@@ -66,7 +69,21 @@ public:
     void print() {
         cout << "real = " << realPart << " complex = " << complexPart << endl;
     }
+
+    friend ostream &operator<<(ostream &s, const ComplexNumber &c);
+
+    friend istream &operator>>(istream &s, ComplexNumber &c);
 };
+
+ostream &operator<<(ostream &outputStream, const ComplexNumber &complexNumber) {
+    outputStream << "real = " << complexNumber.realPart << " complex = " << complexNumber.complexPart << endl;
+    return outputStream;
+}
+
+istream &operator>>(istream &inputStream, ComplexNumber &complexNumber) {
+    inputStream >> complexNumber.realPart >> complexNumber.complexPart;
+    return inputStream;
+}
 
 class Student {
 private:
@@ -154,6 +171,12 @@ int main() {
     //  int x,y;
     ++a = b; // should compile - because pre-increment returned non-const reference
     a++ ++;  // should not compile - because post-increment returned const
+
+    ComplexNumber a(3, 5);
+    cout << "Initial value of a" << a << endl;
+
+    cin >> a;
+    cout << "Final value of a" << a << endl;
 
     const char name1[50] = "Vitthal";
     Student student1(name1);
