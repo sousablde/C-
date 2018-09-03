@@ -11,7 +11,7 @@
  * an interface
  *run time polymorphism allows programmers to keep adding classes to existing systems
  * interfaces allow separation between implementation and design
- * 
+ *
  */
 using namespace std;
 

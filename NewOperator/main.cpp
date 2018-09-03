@@ -77,5 +77,23 @@ int main() {
 
     delete pFrog;
 
+    /*
+     *
+     * Allocating memory
+     *
+     */
+
+    //this both allocates memory and instantiates the object
+    Animal *p2Animal=new Animal;
+
+    delete p2Animal;
+
+    //this creates 10 animals
+    Animal *p2Animal = new Animal[10];
+
+    delete [] p2Animal;
+
     return 0;
+
+
 }

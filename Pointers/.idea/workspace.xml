@@ -12,32 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee035b0-87a1-4ec1-b946-74e5ed6c180a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../constInCpp/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../constInCpp/.idea/constInCpp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../constInCpp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../constInCpp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../constInCpp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../constInCpp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TwoSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/TwoSum.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/ON2NaiveSolution.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/ON2NaiveSolution.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/TwoSum.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/TwoSum.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/TwoSum.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/cmake-build-debug/TwoSum.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constInCpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../constInCpp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,6 +28,7 @@
     <session id="1538490324">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -106,7 +84,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />
