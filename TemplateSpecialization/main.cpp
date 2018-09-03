@@ -2,6 +2,11 @@
 
 using namespace std;
 
+/*
+ * each templated class can have multiple templated parameters
+ *
+ *
+ */
 
 template<class KeyType, class ValueType>
 class KeyValuePair {
@@ -23,9 +28,9 @@ public:
 
 };
 
-
-template<>
-class KeyValuePair<string, string> {
+//this is an example ot customizing implementation and do a specialization
+template<>//this announces the specialization
+class KeyValuePair<string, string> {//all the parameters are specified as templated parameters
 private:
     string key;
     string value;
@@ -45,10 +50,12 @@ public:
 };
 
 
+//this is an example of a partial specialization
+//only some of the parameters are specified
 template<class KeyType>
 class KeyValuePair<KeyType, int> {
 private:
-    KeyType key;
+    KeyType key;//here is the partial specialization
     int value;
 public:
     KeyValuePair(KeyType k, int v) : key(k), value(v) {
