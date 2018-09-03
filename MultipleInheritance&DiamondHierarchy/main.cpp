@@ -11,6 +11,8 @@ using namespace std;
  *
  *
  * to make sure that only 1 instance of the shape object shows up we use virtual inheritance
+ * there is no need for scope resolution operator while accessing shape portions of a square
+ * using virtual multiple inheritance
  */
 
 class Shape {
