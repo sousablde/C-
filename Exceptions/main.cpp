@@ -4,7 +4,7 @@ using namespace std;
 
 /*
  * exceptions are a way to deal with run-time errors
- * we should never throw exceptions from inside a destructor 
+ * we should never throw exceptions from inside a destructor
  */
 
 
