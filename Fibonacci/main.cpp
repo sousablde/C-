@@ -14,9 +14,7 @@ int fib(int n) {
 int fibIterative(int n) {
     int current = 1, next = 1, previous = 1;
     for (int i = 3; i <= n; i++) {
-        // first, put rabbit(i) into next
         next = current + previous;
-        // now, set up previous and current for next
         previous = current;
         current = next;
     }
