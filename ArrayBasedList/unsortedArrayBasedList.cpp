@@ -42,6 +42,17 @@ void unsortedArrayBasedList::display() {
 
 }
 
+int unsortedArrayBasedList::getLenght() const {
+    return length;
+}
+
+bool unsortedArrayBasedList::isFull() const {
+
+    return (length == 10);
+}
+
+
+
 
 
 
