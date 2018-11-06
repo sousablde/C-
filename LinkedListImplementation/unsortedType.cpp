@@ -5,7 +5,7 @@
 #include "unsortedType.h"
 
 //O(1)
-UnsortedType::UnsortedTyp() {
+UnsortedType::UnsortedType() {
     length = 0;
     start = NULL;
 }
