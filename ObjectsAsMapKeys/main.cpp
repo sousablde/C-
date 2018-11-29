@@ -29,7 +29,13 @@ public:
 
     bool operator<(const Person &other) const //all consts so no variable can be permanently changed
     {
-        return name < other.name;
+        //compare the ages instead of just names (same names but different ages will be seen as 2 != entities
+        if (name == other.name) {
+            return age < other.age;
+        } else {
+            return name < other.name;
+
+        }
     }
 };
 
